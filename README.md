@@ -29,7 +29,7 @@ Integration Layer (Google Calendar API + Google Sheets API)
 - **Post-booking conflict detection** — after every `create_event`, a conflict check runs and rolls back if a simultaneous booking was made
 - **Event ID resolution** — code-level resolution of LLM-fabricated event IDs using cached appointment data (match by groomer name or single-appointment fallback)
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for the full specification including state machine design, slot model, failure handling, latency budget, and acceptance criteria.
+
 
 ## Features
 
